@@ -1,0 +1,76 @@
+Package: PI4AD
+Type: Package
+Title: Priority Index for Alzheimer's Disease
+Version: 1.0.0
+Date: 2025-5-27
+Authors@R: c(person("Hai", "Fang", email="fh12355@rjh.com.cn", role=c("aut","cre")))
+Maintainer: Hai Fang <fh12355@rjh.com.cn>
+Depends: R (>= 4.4.0), igraph, ggplot2
+Imports: BiocGenerics, dplyr, forcats, GenomicRanges, ggnetwork, ggrepel, IRanges, Matrix, methods, osfr, purrr, stats, stringr, tibble, tidyr, pbapply, curl, ggraph
+Suggests: grid, gridExtra, RColorBrewer, ggupset, MASS, graphics, grDevices, utils, ggbio, GenomeInfoDb, fgsea, scales, supraHex
+Description: This package is developed as part of computational medicine efforts enabling multi-omics-led and network-driven therapeutic target prioritisation in the context of Alzheimer's disease (AD). Together with the showcase, this package promotes transparency and reproducibility, allowing users to build upon computational medicine and potentially contribute to the advancement of AD research.
+Collate:
+	'ClassMethod-PI4AD.r'
+	'oRDS.r'
+	'oIG2TB.r'
+	'oTB2IG.r'
+	'oPierSNPsAdv.r'
+	'oPierSNPs.r'
+	'oSNPscores.r'
+	'oSNP2nGenes.r'
+	'oSNPlocations.r'
+	'oSymbol2GeneID.r'
+	'oSNP2eGenes.r'
+	'oDefineQTL.r'
+	'oSNP2cGenes.r'
+	'oDefineRGB.r'
+	'oGR.r'
+	'oSparseMatrix.r'
+	'oSM2DF.r'
+	'oPierGenes.r'
+	'oPier.r'
+	'oRWR.r'
+	'oPierMatrix.r'
+	'oHeatmap.r'
+	'oColormap.r'
+	'oPierManhattan.r'
+	'oPierGSEA.r'
+	'oGSEAdotplot.r'
+	'oRepurpose.r'
+	'oBicreate.r'
+	'oSEA.r'
+	'oSEAextract.r'
+	'oSEAadv.r'
+	'oSEAdotplot.r'
+	'oDAGinduce.r'
+	'oNetInduce.r'
+	'oAddCoords.r'
+	'oLayout.r'
+	'oConverter.r'
+	'oGGnetwork.r'
+	'oSEAforest.r'
+	'oSEAupset.r'
+	'oPierSubnet.r'
+	'oSubneterGenes.r'
+	'oAttack.r'
+	'oUpsetAdv.r'
+	'oTIG.r'
+	'oBiproject.r'
+	'oVisAttack.r'
+	"oPvalAggregate.r"
+	"oDAGlevel.r"
+	"oDAGroot.r"
+	"oDAGreverse.r"
+	"oNetPipeline.r"
+	"oBUMfit.r"
+	"oBUMscore.r"
+	"oFDRscore.r"
+	"oNetFind.r"
+	"oNetConfidence.r"
+	"oVisNet.r"
+	"oHEB.r"
+	"oAUCurve.r"
+	"oSEAballoon.r"
+	"oCombineNet.r"
+License: GPL-2
+biocViews: SystemsBiology, GeneTarget, Pathways, Network
